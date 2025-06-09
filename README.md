@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, you'll learn how to configure Identity and Access Management (IAM) policies on Google Cloud Platform (GCP). IAM policies are crucial for managing access to your GCP resources. We'll cover setting up a GCP project, creating service accounts, assigning roles, and implementing best practices for IAM.
+In this project, I have learned how to configure Identity and Access Management (IAM) policies on Google Cloud Platform (GCP). IAM policies are crucial for managing access to my GCP resources. I will cover setting up a GCP project, creating service accounts, assigning roles, and implementing best practices for IAM.
 
 ## Pre-requisites
 
@@ -12,9 +12,8 @@ In this project, you'll learn how to configure Identity and Access Management (I
 
 ## Lab Set-up and Tools
 
-1. **GCP Account**: Sign up for a free GCP account if you don't have one.
-2. **Google Cloud Console**: Access to the Google Cloud Console.
-3. **Google Cloud SDK**: Install the Google Cloud SDK on your local machine.
+1. **Cloudskillsboost GCP Account**: I have signed up and registered GCP account.
+2. **Google Cloud Console**: Access to the Google Cloud Console on Qwiklabs platform.
 
 ## Exercises
 
@@ -22,7 +21,7 @@ In this project, you'll learn how to configure Identity and Access Management (I
 
 #### Steps
 
-1. Log in to the [Google Cloud Console](https://console.cloud.google.com/).
+1. Log in to the [Google Cloud Console](https://www.cloudskillsboost.google.com).
 2. Click on the project drop-down and select "New Project".
 3. Name your project `my-gcp-project` and click "Create".
 
@@ -35,7 +34,7 @@ In this project, you'll learn how to configure Identity and Access Management (I
 #### Steps
 
 1. Navigate to the "Billing" section in the Google Cloud Console.
-2. Link your project to a billing account.
+2. Link my project to a billing account.
 3. Navigate to the "APIs & Services" section.
 4. Enable necessary APIs (e.g., Compute Engine API).
 
@@ -77,7 +76,7 @@ In this project, you'll learn how to configure Identity and Access Management (I
 
 #### Steps
 
-1. Open your terminal.
+1. Open the terminal.
 2. Authenticate your GCP account using:
     ```bash
     gcloud auth login
@@ -113,4 +112,4 @@ In this project, you'll learn how to configure Identity and Access Management (I
 
 ## Conclusion
 
-By completing these exercises, you have successfully set up a GCP project, created service accounts, assigned IAM roles, and configured IAM policies using both the Google Cloud Console and gcloud CLI. These skills are essential for managing access control in GCP effectively.
+By completing these exercises, I have successfully set up a GCP project, created service accounts, assigned IAM roles, and configured IAM policies using both the Google Cloud Console and gcloud CLI. These skills are essential for managing access control in GCP effectively.
